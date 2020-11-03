@@ -4,10 +4,10 @@ public class Phone {
     String number;
     int weight;
     String model;
-    Phone(){
-        number = "88005553535";
-        weight = 12;
-        model = "Iphone-12";
+    Phone(String number, int weight, String model){
+        this.number = number;
+        this.weight = weight;
+        this.model = model;
     }
     public String receiveCall(String name){
         String mes = "Звонит " + name;

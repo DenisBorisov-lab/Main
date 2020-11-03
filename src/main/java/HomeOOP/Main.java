@@ -2,7 +2,7 @@ package HomeOOP;
 
 public class Main {
     public static void main(String[] args) {
-        Phone message = new Phone();
+        Phone message = new Phone("+79252229645", 12, "Iphone-12");
         System.out.println(message.model);
         System.out.println(message.number);
         System.out.println(message.weight);
